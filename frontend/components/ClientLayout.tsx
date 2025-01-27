@@ -1,17 +1,22 @@
 "use client"
 
 
+import { useState } from "react";
 import Appbar from "./Appbar";
 import Footer from "./Footer";
+import Menubar from "./Menubar";
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
-    // const [option , setoption] = useState(true);
+    const [menu , setMenue] = useState<boolean>(false);
     return (
-    <div>
-        <Appbar />
-        { children }
+    <div >
+        <Appbar menu={menu} setMenue={setMenue}/>
+        <Menubar menu={menu}/>
+        <div onClick={()=>setMenue(false)}>
+
+            { children }
+        </div>
         <Footer />
-        <div className="bg-green-500 text-white text-[12px] font-serif text-center">@ All Right Reserved</div>
     </div>
   );
 }
