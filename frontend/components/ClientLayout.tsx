@@ -1,7 +1,6 @@
 "use client"
 
 
-import { useState } from "react";
 import Appbar from "./Appbar";
 import Footer from "./Footer";
 
