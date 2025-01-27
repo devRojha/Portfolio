@@ -1,6 +1,9 @@
 "use client"
 
+import { useEffect } from "react";
 import SkillAnimate from "./SkillAnimate"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const SkillList = [
     {
@@ -72,12 +75,15 @@ const SkillList = [
 
 
 export default function About(){
+    useEffect(()=>{
+        AOS.init({duration:2000});
+      },[])
     return(
-        <div id="About" className="mb-10">
+        <div id="About" className="mb-10 overflow-auto">
             <div className="mx-4 max-sm:mx-2">
                 <div className="font-bold text-pretty text-3xl mb-8">ABOUT</div>
                 <div className="grid grid-cols-2 max-md:grid-cols-1">
-                    <div className="pt-[300px] max-md:pt-8 max-md:mb-8">
+                    <div className="pt-[300px] max-md:pt-8 max-md:mb-8" data-aos="fade-right">
                          <div className="max-md:border-b rounded-lg p-4 max-sm:p-1">
                             <div className="text-center font-bold text-2xl mb-4 text-yellow-500">Who Am I?</div>
                             <div className="flex text-justify font-serif overflow-auto">
@@ -88,7 +94,7 @@ export default function About(){
                         </div>
                     </div>
                     <div>
-                        <div className="border-l max-md:border-b max-md:border-l-0 rounded-lg p-4">
+                        <div className="border-l max-md:border-b max-md:border-l-0 rounded-lg p-4" data-aos="fade-left">
                             <div className="text-center font-bold text-2xl mb-4 text-yellow-500">Technical Skills</div>
                             <div className="space-y-2 font-serif">
                                 {SkillList.map((list)=>
