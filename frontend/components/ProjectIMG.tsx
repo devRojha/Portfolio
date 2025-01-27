@@ -33,7 +33,7 @@ export default function ProjectIMG(Props: PropsType) {
   }, [itr, Props.len]);
 
   return (
-    <div className="w-[400px] relative">
+    <div className="w-[370px] relative">
       <Image
         className={`h-[270px] rounded-lg transition-opacity duration-500 ${
           fade ? "opacity-0" : "opacity-100"
