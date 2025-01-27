@@ -1,8 +1,6 @@
 "use client"
-import { useState } from "react";
 
-export default function Appbar() {
-    const [menu , setMenue] = useState<boolean>(false);
+export default function Appbar({menu, setMenue} : {menu:boolean , setMenue : (value : boolean)=> void}) {
     return (
       <div className="fixed w-full z-30  bg-zinc-800 h-[70px]  flex flex-col justify-center">
         <div className="flex justify-between px-20 max-lg:px-6 max-sm:px-4">
@@ -11,9 +9,9 @@ export default function Appbar() {
                 <ul className="flex space-x-16 max-lg:space-x-10 font-bold">
                     <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="">Home</a></li>
                     <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="#About">About</a></li>
-                    <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="#Projects">Projects</a></li>
+                    <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="#Works">Works</a></li>
                     <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="">More</a></li>
-                    <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="">Contacts</a></li>
+                    <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="#Contacts">Contacts</a></li>
                 </ul>
             </div>
             <div className="max-sm:flex hidden flex-col justify-center">

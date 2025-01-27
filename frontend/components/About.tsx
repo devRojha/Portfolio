@@ -74,11 +74,11 @@ const SkillList = [
 export default function About(){
     return(
         <div id="About" className="mb-10">
-            <div className="mx-4">
+            <div className="mx-4 max-sm:mx-2">
                 <div className="font-bold text-pretty text-3xl mb-8">ABOUT</div>
                 <div className="grid grid-cols-2 max-md:grid-cols-1">
                     <div className="pt-[300px] max-md:pt-8 max-md:mb-8">
-                         <div className="max-md:border-b rounded-lg p-4">
+                         <div className="max-md:border-b rounded-lg p-4 max-sm:p-1">
                             <div className="text-center font-bold text-2xl mb-4 text-yellow-500">Who Am I?</div>
                             <div className="flex text-justify font-serif overflow-auto">
                                 <div className="h-[400px]">

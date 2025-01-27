@@ -2,7 +2,8 @@
 import About from "@/components/About";
 import CodingProfile from "@/components/CodingProfile";
 import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
+import Works from "@/components/Works";
+
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <div className="rounded-full bg-slate-500 mx-8 mb-10">
         <div className="w-[40%] rounded-full h-1 bg-white"></div>
       </div>
-      <Projects />
+      <Works />
       <div className="rounded-full bg-slate-500 mx-8 mb-10">
         <div className="w-[60%] rounded-full h-1 bg-white"></div>
       </div>
