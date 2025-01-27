@@ -15,8 +15,8 @@ export default function Hero() {
                 <div className="px-6 rounded-full border border-slate-400 mb-4">SOFTWARE DEVELOPER</div>
               </div>
               <div className="font-bold text-5xl max-md:text-3xl max-sm:text-2xl mb-2" data-aos="fade">DEVRAJ KUMAR</div>
-              <div data-aos="fade-right" className="my-4 max-sm:text-sm">As a budding MERN stack developer, I am keen to put my theoretical understanding into practical use within the software domain. I am actively exploring opportunities to contribute and enhance my skills through engaging internship experiences this summer.</div>
-              <div className="space-x-4" >
+              <div data-aos="fade-right" className="my-4 max-sm:text-sm pr-2">A passionate MERN stack developer and competitive programmer with experience solving 1200+ problems on platforms like Codeforces and LeetCode. I specialize in building scalable web applications and crafting efficient solutions to complex challenges.</div>
+              <div className="space-x-4 mt-10 max-sm:mt-2" >
                 <a href="Devraj.pdf" className="px-4 py-3 font-bold text-lg max-sm:text-sm rounded-lg bg-yellow-500" >Download CV</a>
                 <a href="mailto:devrajk0405@gmail.com" className="px-4 py-3 font-bold text-lg max-sm:text-sm  rounded-lg bg-black">Hire Me Now</a>
               </div>
