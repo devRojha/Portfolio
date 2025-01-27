@@ -9,11 +9,11 @@ export default function Appbar() {
             <div className="font-bold text-5xl max-md:text-3xl"><span className="text-yellow-500 ">D</span>EVRAJ</div>
             <div className="max-sm:hidden flex flex-col justify-center">
                 <ul className="flex space-x-16 max-lg:space-x-10 font-bold">
-                    <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="/">Home</a></li>
+                    <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="">Home</a></li>
                     <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="#About">About</a></li>
                     <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="#Projects">Projects</a></li>
-                    <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="/">More</a></li>
-                    <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="/">Contacts</a></li>
+                    <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="">More</a></li>
+                    <li className="hover:border-b active:text-yellow-500 border-yellow-500"><a href="">Contacts</a></li>
                 </ul>
             </div>
             <div className="max-sm:flex hidden flex-col justify-center">
