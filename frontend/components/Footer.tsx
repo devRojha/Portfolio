@@ -16,7 +16,8 @@ export default function Footer(){
                 <div className="grid grid-cols-3 max-sm:grid-cols-2" data-aos="fade-up">
                     <div className="text-sm  mt-4" data-aos="fade-right">
                         <div className="font-bold mb-1">Devraj Kumar</div>
-                        <div>Email: <a className="underline" href="mailto:devrajk0405@gmail.com">devrajk0405@gmail.com</a></div>
+                        <div>Email: <a className="underline" href="mailto:devrajk0405@gmail.com" target="blank">devrajk0405@gmail.com</a></div>
+                        <div><a className="underline" href="https://github.com/devRojha" target="blank">GitHub</a></div>
                     </div>
                     <div className="flex max-sm:justify-center"data-aos="fade-left">
                         <div className="text-sm  mt-4 ">
