@@ -73,7 +73,6 @@ const SkillList = [
 
 
 export default function About(){
-    const [more , setMore] = useState<boolean>(false);
     return(
         <div id="About" className="mb-10">
             <div className="mx-4">
