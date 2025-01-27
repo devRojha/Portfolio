@@ -10,7 +10,7 @@ export default function Footer(){
         AOS.init({duration:2000})
     },[])
     return(
-        <div className="overflow-auto">
+        <div id="Contacts" className="overflow-auto">
             <div className="px-20 max-lg:px-12 max-md:px-6 py-4 text-zinc-600 bg-zinc-300">
                 <div className="text-2xl text-center mb-10 font-bold mt-4">Contact : </div>
                 <div className="grid grid-cols-3 max-sm:grid-cols-2" data-aos="fade-up">

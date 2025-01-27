@@ -16,7 +16,7 @@ export default function Appbar({menu, setMenue} : {menu:boolean , setMenue : (va
                     <li className="hover:border-b active:text-yellow-500 border-yellow-500" data-aos="fade-left"><a href="">Home</a></li>
                     <li className="hover:border-b active:text-yellow-500 border-yellow-500" data-aos="fade-left"><a href="#About">About</a></li>
                     <li className="hover:border-b active:text-yellow-500 border-yellow-500" data-aos="fade-left"><a href="#Works">Works</a></li>
-                    <li className="hover:border-b active:text-yellow-500 border-yellow-500" data-aos="fade-left"><a href="">More</a></li>
+                    {/* <li className="hover:border-b active:text-yellow-500 border-yellow-500" data-aos="fade-left"><a href="">More</a></li> */}
                     <li className="hover:border-b active:text-yellow-500 border-yellow-500" data-aos="fade-left"><a href="#Contacts">Contacts</a></li>
                 </ul>
             </div>

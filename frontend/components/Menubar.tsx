@@ -1,7 +1,6 @@
 "use client";
 
 
-
 export default function Menubar({menu} : {menu:boolean}) {
   return (
     <div>
@@ -16,9 +15,9 @@ export default function Menubar({menu} : {menu:boolean}) {
                 <div className=" ">
                     <div className=""><a className="hover:border-b active:text-yellow-500 border-yellow-500" href="#Works">Works</a></div>
                 </div>
-                <div className=" ">
+                {/* <div className=" ">
                     <div className=""><a className="hover:border-b active:text-yellow-500 border-yellow-500" href="">More</a></div>
-                </div>
+                </div> */}
                 <div className=" ">
                     <div className=""><a className="hover:border-b active:text-yellow-500 border-yellow-500" href="#Contacts">Contacts</a></div>
                 </div>
