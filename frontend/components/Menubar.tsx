@@ -1,10 +1,8 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 
 
 export default function Menubar({menu} : {menu:boolean}) {
-    const router = useRouter();
   return (
     <div>
       <div className={`${!menu ? "right-[-400px]" : "right-0"} top-10 w-[200px] rounded-b-lg border-b border-2xl bg-gray-700 z-20 fixed transition-all duration-500 ease-linear`}>
